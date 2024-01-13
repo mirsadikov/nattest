@@ -1,6 +1,6 @@
-[submodule "natmap"]
-	path = natmap
-	url = https://github.com/heiher/natmap
 [submodule "Natter"]
 	path = Natter
 	url = https://github.com/MikeWang000000/Natter
+[submodule "natmap"]
+	path = natmap
+	url = https://github.com/heiher/natmap.git
