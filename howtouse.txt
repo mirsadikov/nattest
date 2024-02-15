@@ -1,5 +1,8 @@
 ./natmap/bin/natmap -s stunserver.stunprotocol.org -h example.com -b 8000
 ./natmap/bin/natmap -s stunserver.stunprotocol.org -h example.com -b 8000 -t 192.168.1.77 -p 22
 
-python3 ./Natter/natter.py -h 192.168.1.77 -p 22 -e ./notify.py
-python3 ./Natter/natter.py -p 22 -e ./nginx-cloudflare/cf-redir.py
+-e ./notify.py
+python3 ./Natter/natter.py 5000
+python3 ./Natter/natter.py 192.168.100.49 5000
+
+python3 ./Natter/natter.py -p 27015 -u
